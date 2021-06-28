@@ -1,0 +1,219 @@
+body {
+    background-color: #414a4e;
+}
+.row1 { 
+    height: 120px;
+    background: linear-gradient(to top, white 30%, #f2ffff 70%);
+}
+.conteiner{
+    height: 100px;
+    margin: 0 auto;
+    width: 1080px; 
+}
+.conteiner img {
+    padding: 10px 90px;
+    float: left;
+}
+.conteiner li {
+    float: left;
+    text-decoration: none;
+    color: black;
+    padding: 50px 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+.conteiner ul {
+    list-style-type: none;
+}
+.row2 {
+    height: 700px;
+    background: #f3efe3;
+    border-bottom: 1px solid #e4dfd1;
+    border-top: 1px solid #e4dfd1;
+}
+.conteiner1 {
+    margin: 0 auto;
+    width: 1080px;
+}
+.conteiner1 h1 {
+    color: #8c8a8c;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 34px;
+    padding: 30px 205px;
+}
+.conteiner1 h1 span {
+    color: #555555;
+}
+.conteiner2 {
+    margin: 0 auto;
+    width: 1080px;
+    height: 222px;
+    
+    position: relative;
+}
+.conteiner2 .Cir1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 1px solid #f7425d;
+    background-color: #f7425d;
+    float: left;
+    position:absolute;
+    left: 100px;
+}
+h2 {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.p1 {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+.p2{
+   justify-content: center;
+    align-content: center;
+    display: flex;
+   font-family: 'Roboto Condensed', sans-serif; color: white; 
+}
+.p3 {
+   justify-content: center;
+    align-content: center;
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+.conteiner2 .Cir2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 1px solid #f7615d;
+    background-color: #f7615d;
+    float: left;
+    position:absolute;
+    left: 330px;
+}
+.conteiner2 .Cir3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 1px solid #f78f5d;
+    background-color: #f78f5d;
+    float: left;
+    position:absolute;
+    left: 560px;
+}
+.conteiner2 .Cir4 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 1px solid #f7b55d;
+    background-color: #f7b55d;
+    float: left;
+    position:absolute;
+    left: 790px;
+}
+.conteiner3 {
+    width: 1080px;
+    height: 310px;
+    border: 1px solid #dedfde;
+    margin: 0 auto;
+    position: relative;
+    background: linear-gradient(to top, white 30%,#eff2ef 70%);
+}
+.img1 {
+    width: 290px;
+    height: 200px;
+    border: 1px solid #dedfde;
+    float: left;
+}
+.img1>img {
+    padding: 5px 5px;
+}
+.ram>img{
+    float: left;
+    padding: 75px 5px;
+}
+.ram {
+    margin: 0 auto;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.gg {
+    float: left;
+    width: 10px;
+    border: 1px solid #eff2ef;
+}
+.row3 {
+    height: 450px;
+    background: linear-gradient(to top, white 30%,#eff2ef 70%);
+    border-top: 1px solid #e4dfd1;
+}
+.con {
+   margin: 20px auto;
+   width: 1080px;
+    height: 300px;
+    border-bottom: 1px dotted #ddd;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#frontpage-content{
+	float:left;
+	width:420px;
+	padding:0 100px 0 0;
+	border-right:1px #ddd dotted;
+}
+#frontpage-content p{
+	font-size:16px;
+	line-height:24px;
+}
+#frontpage-sidebar{
+	float:right;
+	width:380px;
+	padding:0 0 0 100px;
+}
+#frontpage-sidebar .meta, #frontpage-sidebar .meta a{
+	color:#aaa;
+	font-size:18px;
+}
+#frontpage-sidebar .blog-title{
+	font-size:18px;
+    text-decoration: none;
+}
+#frontpage-sidebar .read-more{
+	display:block;
+	background:url(../images/blue-button-bg.png) no-repeat;
+	width:141px;
+	height:34px;
+	color:#fff;
+	text-align:center;
+	padding:5px 0;
+    text-decoration: none;
+}
+#frontpage-sidebar .read-more:hover{
+	background:url(../images/red-button-bg.png) no-repeat;
+}
+.blue-bullets{
+	float:left;
+	margin:10px 0 0 0;
+    list-style-type: none;
+}
+.blue-bullets li{
+	background:url(../images/blue-bullet.png) no-repeat;
+	height:21px;
+	position:relative;
+    padding:0px 0 18px 35px;
+}
+.footer {
+    width: 1080px;
+    margin: 0 auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.footer a{
+    text-decoration: none;
+}
